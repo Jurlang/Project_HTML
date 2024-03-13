@@ -1,0 +1,70 @@
+.content {
+  margin-top: 100px;
+  border: 1px solid black;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content .cHeader {
+  border: 1px solid black;
+  height: 20%;
+}
+.content .cHeader h2 {
+  text-align: center;
+  font-family: "Hind Guntur", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 5px;
+}
+.content .cHeader p {
+  text-align: center;
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.content .cBody {
+  margin-top: 40px;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.content .cBody .cItem {
+  width: 20%;
+  height: 90%;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.content .cBody .cItem .ciImg {
+  border: 1px solid black;
+  width: 100%;
+  height: 79%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content .cBody .cItem .ciDes {
+  border: 1px solid black;
+  height: 21%;
+}
+
+.content .cBody .cItem .ciDes span {
+  display: block;
+}
+
+.itemHeader,
+.itemSize,
+.itemPrice,
+.itemReview {
+  font-size: 12px;
+  text-align: center;
+}
