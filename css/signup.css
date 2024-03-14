@@ -1,0 +1,141 @@
+.bolder_bottom {
+  border-bottom: 1px solid #e0d0d0;
+}
+
+.titleAttr {
+  background-color: #f0e0e0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.fontRed {
+  color: red;
+  margin-left: 2px;
+}
+
+.inputbox {
+  width: calc(100% - 90px);
+  border: none;
+  height: 25px;
+  background-color: #e0d0d0;
+  font-size: 12px;
+  color: #909090;
+  outline: none;
+}
+
+.signupForm {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 11px;
+  color: #909090;
+}
+
+.signupTitle {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Hind Guntur", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 5px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.userType {
+  width: 100%;
+  border: 1px solid #e0d0d0;
+  border-radius: 4px;
+}
+
+.userType .userTypeTitle {
+  height: 40px;
+  padding: 10px;
+}
+
+.userType .type {
+  height: 40px;
+  padding: 10px;
+  border-top: 1px solid #e0d0d0;
+  border-bottom: 1px solid #e0d0d0;
+}
+
+.userType .authorize {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.userType .authorize span {
+  margin-top: 2px;
+  padding: 2px;
+  font-size: 11px;
+}
+
+.userInfo {
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #e0d0d0;
+  border-radius: 4px;
+}
+
+.userInfo > div {
+  height: 40px;
+  /* padding: 7px; */
+}
+
+.userInfo .userInfoTitle {
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.uitLabel {
+  display: inline-block;
+  width: 80px;
+  line-height: 40px;
+  padding-left: 3px;
+}
+
+.idchkbtn {
+  height: 25px;
+  padding: 2px;
+  color: #909090;
+  font-size: 11px;
+  background-color: transparent;
+  border: 1px solid #e0d0d0;
+}
+
+.idchkbtn:active {
+  background-color: #f0e0e0;
+}
+
+.addInfo {
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #e0d0d0;
+  border-radius: 4px;
+}
+
+.addInfo .addInfoTitle {
+  padding: 10px;
+  height: 40px;
+}
+
+.subBtn {
+  margin-top: 15px;
+  width: 100%;
+  height: 40px;
+  color: #909090;
+  font-weight: bold;
+  letter-spacing: 3px;
+  border: none;
+  background-color: #f0e0e0;
+}
+
+.subBtn:active {
+  background-color: #e0d0d0;
+}

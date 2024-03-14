@@ -6,6 +6,13 @@
 .loginForm h1 {
   font-size: 36px;
   text-align: center;
+  font-family: "Hind Guntur", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 5px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #666;
 }
 
 .loginForm .input-box {

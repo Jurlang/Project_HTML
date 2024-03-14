@@ -24,3 +24,9 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
+input[type="radio"],
+input[type="checkbox"] {
+  vertical-align: middle;
+  margin: 0 3px;
+}

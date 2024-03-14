@@ -26,7 +26,91 @@
       <h2>Clothes Sale👍</h2>
     </section>
 
-    <section class="signupForm"></section>
+    <section class="signupForm">
+      <form action="">
+        <h2 class="signupTitle">REGISTER</h2>
+        <!-- 회원 인증 -->
+        <div class="userType">
+          <div class="userTypeTitle titleAttr">
+            <span>회원 인증</span>
+          </div>
+          <div class="type">
+            <label for="personal"><input type="radio" name="typeChk" id="personal" value="p" checked />개인 회원</label>
+            <label for="company"><input type="radio" name="typeChk" id="company" value="c" />사업자 회원</label>
+            <label for="foreigner"><input type="radio" name="typeChk" id="foreigner" value="f" />외국인 회원</label>
+          </div>
+          <div class="authorize">
+            <label for="emailAuth"><input type="radio" id="emailAuth" value="Y" checked />이메일 인증</label>
+            <span>기본정보 > 이메일 항복에 입력하신 정보로 본인인증을 진행합니다.</span>
+            <span>회원가입 후에 인증 메일이 발송되오니, 확인해주시기 바랍니다.</span>
+          </div>
+        </div>
+
+        <!-- 기본 정보 -->
+        <div class="userInfo">
+          <div class="userInfoTitle titleAttr bolder_bottom">
+            <span>기본정보</span>
+            <span class="fontRed">필수</span>
+          </div>
+          <div class="idForm bolder_bottom">
+            <label for="" class="uitLabel">아이디<span class="fontRed">*</span></label>
+            <input type="text" class="inputbox" style="width: calc(100% - 200px)" required />
+            <button class="idchkbtn">중복확인</button>
+          </div>
+          <div class="pwForm bolder_bottom">
+            <label for="" class="uitLabel">비밀번호<span class="fontRed">*</span></label>
+            <input type="password" class="inputbox" required />
+          </div>
+          <div class="pwChkForm bolder_bottom">
+            <label for="" class="uitLabel">비밀번호 확인<span class="fontRed">*</span></label>
+            <input type="password" class="inputbox" required />
+          </div>
+          <div class="nameForm bolder_bottom">
+            <label for="" class="uitLabel">이름<span class="fontRed">*</span></label>
+            <input type="text" class="inputbox" required />
+          </div>
+          <div class="addrForm bolder_bottom">
+            <label for="" class="uitLabel">주소<span class="fontRed">*</span></label>
+            <input type="text" class="inputbox" required />
+          </div>
+          <div class="telForm bolder_bottom">
+            <label for="" class="uitLabel">전화번호<span class="fontRed">*</span></label>
+            <input type="tel" class="inputbox" placeholder="000 - 0000 - 0000" required />
+          </div>
+          <div class="smsChk bolder_bottom">
+            <label for="" class="uitLabel">SMS수신<span class="fontRed">*</span></label>
+            <label for="smschk"> <input type="checkbox" id="smschk" value="Y" />SMS수신동의 </label>
+          </div>
+          <div class="emailForm bolder_bottom">
+            <label for="" class="uitLabel">이메일<span class="fontRed">*</span></label>
+            <input type="email" class="inputbox" style="width: calc(100% - 200px)" required />
+            <button class="idchkbtn">중복확인</button>
+          </div>
+          <div class="emailChk">
+            <label for="" class="uitLabel">이메일수신<span class="fontRed">*</span></label>
+            <label for="emailchk"> <input type="checkbox" id="emailchk" value="Y" />이메일 수신동의 </label>
+          </div>
+        </div>
+        <!-- 추가정보 -->
+        <div class="addInfo">
+          <div class="addInfoTitle titleAttr">
+            <span>추가정보</span>
+          </div>
+          <div class="genderChk bolder_bottom">
+            <label for="" class="uitLabel">성별</label>
+            <label for="male"><input type="radio" name="genderChk" id="male" value="m" checked />남성</label>
+            <label for="female"><input type="radio" name="genderChk" id="female" value="f" />여성</label>
+          </div>
+          <div class="birthForm">
+            <label for="" class="uitLabel">생년월일</label>
+            <input type="text" class="inputbox" placeholder="0000 - 00 - 00" />
+          </div>
+        </div>
+        <div>
+          <button type="submit" class="subBtn">회원가입</button>
+        </div>
+      </form>
+    </section>
 
     <footer id="footer">
       <address>
