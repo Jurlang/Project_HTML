@@ -11,30 +11,39 @@
   text-align: center;
   font-size: 40px;
   height: 50px;
-  background-color: yellow;
   border-radius: 90px;
   cursor: pointer;
+}
+
+.naviIcon i {
+  color: #b9b9b9;
 }
 
 .naviList {
   position: absolute;
   width: 100px;
-  height: 100px;
+  height: 190px;
   left: -50px;
-  top: -100px;
+  top: -144px;
   display: none;
-  background-color: lightcyan;
+  background-color: transparent;
 }
 
 .naviList li {
+  padding: 2px;
+  margin-bottom: 7px;
   list-style-type: none;
   font-size: 16px;
-  background-color: lightcoral;
+  background-color: #b9b9b9;
   border-radius: 4px;
 }
 
+.naviList li a {
+  color: blue;
+}
+
 .naviIcon:hover {
-  background-color: red;
+  background-color: black;
 
   .naviList {
     display: block;
@@ -48,8 +57,16 @@
   right: 40px;
   width: 50px;
   height: 50px;
+  font-size: 30px;
+  border-radius: 90px;
+  text-align: center;
 }
 
 .moveDown {
   bottom: 50px;
+}
+
+.moveUp i,
+.moveDown i {
+  color: #b9b9b9;
 }
