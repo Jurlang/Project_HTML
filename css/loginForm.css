@@ -1,0 +1,104 @@
+.loginForm {
+  width: 40%;
+  margin: 40px auto;
+}
+
+.loginForm h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.loginForm .input-box {
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent; /* 부모 배경 색과 동일 */
+  border: none;
+  outline: none; /* 기본 포커스 스타일 사라짐.*/
+  border: 2px solid #bbb5b1;
+  border-radius: 40px;
+  font-size: 16px;
+  color: #aba5a1;
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+  color: #bbb5b1;
+}
+
+.input-box {
+  position: relative;
+}
+
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%; /* 위에서 50% 내려서 위치 */
+  transform: translateY(-50%);
+  /* top 으로 내린 기준점은 본인의 좌측 상단이므로 본인 기준 y축으로 50% 다시 이동 */
+  font-size: 20px;
+}
+
+.loginForm .remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+
+.remember-forgot label {
+  color: #6b6561;
+}
+
+.remember-forgot label input {
+  accent-color: #fff; /* 체크박스 및 라디오버튼이 체크되었을 때 그 상자의 색.*/
+  margin-right: 3px;
+}
+
+.remember-forgot a {
+  color: #bbb5b1;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.loginForm .btn {
+  width: 100%;
+  height: 45px;
+  background: #bbb5b1;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer; /* 마우스가 hover 되었을때 포인터가 바뀜 */
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.loginForm .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.register-link p {
+  color: #6b6561;
+}
+
+.register-link p a {
+  color: #bbb5b1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
