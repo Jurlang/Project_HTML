@@ -1,0 +1,55 @@
+.navi {
+  position: fixed;
+  bottom: 150px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+}
+
+.naviIcon {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  height: 50px;
+  background-color: yellow;
+  border-radius: 90px;
+  cursor: pointer;
+}
+
+.naviList {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: -50px;
+  top: -100px;
+  display: none;
+  background-color: lightcyan;
+}
+
+.naviList li {
+  list-style-type: none;
+  font-size: 16px;
+  background-color: lightcoral;
+  border-radius: 4px;
+}
+
+.naviIcon:hover {
+  background-color: red;
+
+  .naviList {
+    display: block;
+  }
+}
+
+.moveUp,
+.moveDown {
+  position: fixed;
+  bottom: 100px;
+  right: 40px;
+  width: 50px;
+  height: 50px;
+}
+
+.moveDown {
+  bottom: 50px;
+}

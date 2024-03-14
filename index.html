@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/html.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/content.css" />
+    <link rel="stylesheet" href="./css/navi.css" />
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/mediaquery.css" />
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
@@ -13,7 +14,7 @@
   </head>
   <body>
     <header>
-      <a class="logo" href="#">LOGO</a>
+      <a id="logo" class="logo" href="#">LOGO</a>
       <div class="signBox">
         <a href="#">로그인</a>
         <a href="#">회원가입</a>
@@ -205,6 +206,25 @@
         </div>
       </section>
     </section>
-    <footer>FOOTER</footer>
+
+    <nav class="navi">
+      <div class="naviIcon">
+        <i class="bx bx-menu"></i>
+        <ul class="naviList">
+          <li><a href="#outer">Outer</a></li>
+          <li><a href="#top">Top</a></li>
+          <li><a href="#bottom">Bottom</a></li>
+          <li><a href="#shoes">Shoes</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav class="moveUp">
+      <a href="#logo"><i class="bx bxs-up-arrow"></i></a>
+    </nav>
+    <nav class="moveDown">
+      <a href="#footer"><i class="bx bxs-down-arrow"></i></a>
+    </nav>
+
+    <footer id="footer">FOOTER</footer>
   </body>
 </html>
